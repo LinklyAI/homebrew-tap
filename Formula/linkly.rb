@@ -2,25 +2,25 @@ class Linkly < Formula
   desc "CLI for Linkly AI - search your local documents from the terminal"
   homepage "https://linkly.ai"
   license "Apache-2.0"
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://updater.linkly.ai/cli/v0.2.0/linkly-aarch64-apple-darwin.tar.gz"
-      sha256 "28042afddc3a8fa82fd8c15147ec2d39bbc2e199fb3aa4cb8ea26212bb6ac884"
+      url "https://updater.linkly.ai/cli/v0.2.1/linkly-aarch64-apple-darwin.tar.gz"
+      sha256 "d83bdf41da449d2d06e12eb95ac21f2635bdaf7fe7fd6b046a9b883447f6b6ea"
     else
-      url "https://updater.linkly.ai/cli/v0.2.0/linkly-x86_64-apple-darwin.tar.gz"
-      sha256 "48a030038325390ac3a31f6397bffd680494b0474783f82b88a34237ae3dcd2d"
+      url "https://updater.linkly.ai/cli/v0.2.1/linkly-x86_64-apple-darwin.tar.gz"
+      sha256 "75099fd276d1f599b6d18ca74888194bd7e661e2860c787212e6d5a3a6e298d4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://updater.linkly.ai/cli/v0.2.0/linkly-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6cacfc3716c8c2c5b29315136e2f8c3af20538fd91b01ef5c12a3d4e9e373719"
+      url "https://updater.linkly.ai/cli/v0.2.1/linkly-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c72424df53b897eece2846c82924f7fdc716af3be9141fafc19999cf8b3eadd1"
     else
-      url "https://updater.linkly.ai/cli/v0.2.0/linkly-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "81b86f2033a4324698769656ca34b104bea02eb50f0ffe38abf92b4ef4ef23b9"
+      url "https://updater.linkly.ai/cli/v0.2.1/linkly-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7d450abbe1e79f2670d01229b59bc7108b7ecee82e255d9470a0aee9feb0a11a"
     end
   end
 
